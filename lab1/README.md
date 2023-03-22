@@ -49,7 +49,8 @@ CPU0      6              12
 
 3. Далее получим последние 30 строк логов системы:
 
-```Get-EventLog -LogName 'system' -Newest 30
+```
+Get-EventLog -LogName 'system' -Newest 30
 
    Index Time          EntryType   Source                 InstanceID Message
    ----- ----          ---------   ------                 ---------- -------
